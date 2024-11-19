@@ -1,0 +1,80 @@
+/* Background styling for the entire page */
+.contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-image: url('/src/assets/images/contact-background.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    padding: 40px;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 2px solid #3d6b8f;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form button {
+    padding: 12px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #2b506b;
+}

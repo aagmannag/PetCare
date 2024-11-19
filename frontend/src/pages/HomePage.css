@@ -1,0 +1,43 @@
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    /* Space between images */
+}
+
+.small-image1 {
+    width: 410px;
+    height: auto;
+}
+
+.small-image2 {
+    width: 330px;
+    height: auto;
+}
+
+.main-image {
+    width: 550px;
+    /* Slightly larger than the others */
+    height: auto;
+}
+
+.left-img {
+    width: 300px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15%;
+}
+
+.right-img {
+    width: 300px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15%;
+}

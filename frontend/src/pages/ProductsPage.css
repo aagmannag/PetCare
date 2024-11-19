@@ -1,0 +1,40 @@
+.products-page {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.products-page h1 {
+    text-align: center;
+    color: #333;
+}
+
+.accessories-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.accessory-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accessory-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.accessory-card p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+}

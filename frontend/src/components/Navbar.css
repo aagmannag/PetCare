@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    /* Light background color */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.logo-image {
+    width: 25px;
+    /* Adjust size as needed */
+    height: 25px;
+    margin-right: 10px;
+    /* Space between logo and text */
+}
+
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar-links a:hover {
+    color: #000;
+    /* Change color on hover */
+}
+
+.navbar-search {
+    margin-left: auto;
+    position: relative;
+}
+
+.navbar-search input {
+    padding: 5px 10px;
+    padding-left: 35px;
+    /* Extra space for the search icon */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 150px;
+    background-color: #fff;
+    background-image: url('/src/assets/images/search.png');
+    /* Add path to the search icon */
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    /* Adjust size of the icon */
+    background-position: 10px center;
+    /* Position the icon inside the input */
+}
+
+
+.navbar-search input::placeholder {
+    color: #999;
+}
